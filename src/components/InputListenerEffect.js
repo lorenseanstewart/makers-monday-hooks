@@ -33,7 +33,7 @@ export default function InputListenerEffect() {
 
         // * (3) If you use an outside function you must add 
         // *     it as a dependency in this array.
-    }, [handleInputChange]);
+    }, []);
 
     return (
         <div>
